@@ -52,29 +52,200 @@
         <div class="columns is-vcentered is-multiline">
           <div class="column is-6-tablet is-3-desktop">
             <h1 class="is-size-3-mobile is-size-1-desktop title">Docker</h1>
-            <h2 class="is-size-3-mobile is-size-2-desktop subtitle">Dark Roast</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perspiciatis a sed officiis illum ipsum voluptates iure culpa doloremque deserunt!</p>
+            <h2 class="is-size-3-mobile is-size-2-desktop subtitle">
+              Dark Roast
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
+              perspiciatis a sed officiis illum ipsum voluptates iure culpa
+              doloremque deserunt!
+            </p>
           </div>
           <div class="column is-6-tablet is-5-desktop has-text-centered">
-           <img class="px-6" src="assets/5666218.png" alt="image">
+            <img class="px-6" src="assets/5666218.png" alt="image" />
           </div>
           <div class="column is-12-tablet is-4-desktop">
             <div class="is-size-4 mb-4">10.95 €</div>
-            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo accusamus fuga aliquam dicta, corporis est.</p>
+            <p class="mb-4">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
+              accusamus fuga aliquam dicta, corporis est.
+            </p>
+            <form >
+                <div class="field">
+                  <div class="control mb-6">
+                    <div class="select is-dark">
+                      <select >
+                        <option >Small (250g)</option>
+                        <option >Large (500g)</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              <button class="button is-primary is-large is-rounded">
+                Add to card
+              </button>
+            </form>
+         
           </div>
         </div>
       </div>
     </section>
 
     <section class="section">
-        <div class="container">
-            <div class="columns is-8 is-variable">
-                <div class="column is-8-tablet"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora illum tenetur odio. Veritatis excepturi quo beatae facilis delectus nobis vitae, itaque officia eligendi laborum dolores at. Pariatur dolor aperiam enim.</p></div>
-                <div class="column is-4-tablet"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae ratione ipsam nostrum iusto illo nesciunt vero blanditiis id in numquam, inventore rerum excepturi quam vel necessitatibus atque maxime vitae?</p></div>
+      <div class="container">
+        <div class="columns is-8 is-variable">
+          <div class="column is-7-tablet">
+            <!-- tabbed content -->
+            <div class="tabs is-boxed">
+              <ul>
+                <li class="is-active" data-target="product-details">
+                  <a>Product Details</a>
+                </li>
+              </ul>
+              <ul>
+                <li data-target="delivery-information">
+                  <a>Delivery Information</a>
+                </li>
+              </ul>
             </div>
+            <div class="px-2" id="tab-content">
+              <div id="product-details">
+                <h3 class="is-size-5 title">Product Details</h3>
+                <p>
+                  Products Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit. Ex, laboriosam rerum cupiditate illo et reiciendis!
+                </p>
+              </div>
+              <div id="delivery-information" class="is-hidden">
+                <h3 class="is-size-5 title">Delivery Information</h3>
+                <p>
+                  Delivery ipsum dolor sit amet, consectetur adipisicing elit.
+                  Ex, laboriosam rerum cupiditate illo et reiciendis!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-5-tablet">
+            <!-- message -->
+            <div class="message is-info">
+              <div class="message-header">
+                <p>Earn points with the Coffee Club</p>
+              </div>
+              <div class="message-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                adipisci, quasi possimus accusantium modi dignissimos?
+                <div class="has-text-centered">
+                  <button class="button mt-5" id="signup">Sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
+    <!-- cards -->
+
+    <section class="section is-hidden-mobile">
+      <div class="container">
+        <h3 class="title has-text-centered is-size-4">Related Products</h3>
+        <div class="columns mt-5 is-8 is-variable is-centered">
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img src="assets/6338799.png" alt="product">
+              </div>
+              <div class="card-content">
+                <p>€12,99</p>
+                <p class="title is-size-5">Cortardo Cup</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a href="" class="has-text-grey">View</a>
+                </p>
+              </footer>
+            </div>
+        
+          </div>
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img src="assets/99728716.png" alt="product">
+              </div>
+              <div class="card-content">
+                <p>€12,99</p>
+                <p class="title is-size-5">Another Cup</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a href="" class="has-text-grey">View</a>
+                </p>
+              </footer>
+            </div>
+        
+          </div>
+          <div class="column is-4-tablet is-3-desktop">
+            <div class="card">
+              <div class="card-image has-text-centered px-6">
+                <img src="assets/5666218.png" alt="product">
+              </div>
+              <div class="card-content">
+                <p>€12,99</p>
+                <p class="title is-size-5">Third Cup</p>
+              </div>
+              <footer class="card-footer">
+                <p class="card-footer-item">
+                  <a href="" class="has-text-grey">View</a>
+                </p>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- modal -->
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content has-background-white py-5 px-5">
+        <h3 class="title mb-6">Join the Club</h3>
+        <form>
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input type="text" class="input" placeholder="Name">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input type="email" class="input" placeholder="Email">
+            </div>
+          </div>
+          <div class="field">
+           <div class="control">
+            <label class="checkbox">
+              <input type="checkbox">
+              I agree to the terms & conditions
+            </label>            
+            </div>
+          </div>
+          <div class="mt-6 has-text-centered">
+            <button class="button is-warning">Sign up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+<!-- footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>Copyrights 2023</p>
+  </div>
+</footer>
 
     <script src="index.js"></script>
   </body>
